@@ -28,3 +28,13 @@ cd dl_reconstruction
 docker build . -t test_script
 docker run -it --rm -d --shm-size 2G --gpus 'all,"capabilities=compute,utility"' -v $(pwd):/app/ --name try_script test_script
 ```
+
+***
+
+Contacts:
+
+
+`Telegram`: @Nadir_Devrishev
+
+
+`Mail`: n.devrishev@gmail.com
